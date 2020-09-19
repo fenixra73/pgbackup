@@ -33,9 +33,9 @@ $ pgbackup postgres://bob@example.com:5432/db_one --driver s3 backups
 ```
 Local Example w/ local path:
 
-
+```
 $ pgbackup postgres://bob@example.com:5432/db_one --driver local /var/local/db_one/backups
-
+```
 
 Running Tests
 -------------

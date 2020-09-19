@@ -43,4 +43,4 @@ if args.driver == 's3':
 else:
     outfile = open(args.destination, 'wb')
     print(f"Backing database up locally to {outfile.name}")
-    storage.local(dump.stdout, outfile)</code></pre>
+    storage.local(dump.stdout, outfile)

@@ -11,7 +11,7 @@ class DriverAction(Action):
         namespace.destination = destination
 
 def create_parser():
-    parser = argparse.ArgumentParser(description="""
+    parser = ArgumentParser(description="""
     Back up PostgreSQL databases locally or to AWS S3.
     """)
     parser.add_argument("url", help="URL of database to backup")
